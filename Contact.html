@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>YS SHOP</h1>
+  </header>
+  <nav>
+    <div id="main">
+      <div id="nav">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="Men.html">Men</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="#news">News</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="flex-container2">
+      <h1 class="h1-space">Contact</h1>
+      <div>
+        <br>
+        <br>
+
+        <form>
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Gender: <select name="role[]" multiple>
+                  <option value="Men">Men</option>
+                  <option value="Women">Women</option>
+                </select></label>
+            </p>
+
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        </form>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <p>by Yasin </p>
+  </footer>
+</body>
+
+</html>
