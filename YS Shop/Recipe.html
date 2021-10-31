@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Post Your Recipe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="box-1">
+      <h1>Post Your Recipe</h1>
+    </div>
+  </header>
+  <main>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Recipe.html">Post Your Recipe</a></li>
+    </ul>
+
+    <container class="container">
+      <form>
+
+        <form name="recipe" method="POST" data-netlify="true">
+          <p>
+            <label>Name: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Tel: <input type="tel" name="tel" /></label>
+          </p>
+          <p>
+            <label>Age:<input type="number" name="age" /></label>
+          </p>
+          <p>
+            <label>Date of birth: <input type="date"></label>
+          </p>
+          <p>
+            <label>Gender: </label><label> Male</label><input type="radio" name="gender"> <label>Female</label><input
+              type="radio" name="gender">
+          </p>
+          <p>
+            <label>Favorite cuisine:</label>
+            <input type="checkbox" id="French" name="french" value="French">
+            <label for="french">French</label>
+            <input type="checkbox" id="Italian" name="Italian" value="Italian">
+            <label for="Italian">Italian</label>
+            <input type="checkbox" id="Spanish" name="spanish" value="Spanish">
+            <label for="spanish">Spanish</label>
+            <input type="checkbox" id="Arabic" name="arabic" value="Arabic">
+            <label for="arabic">Arabic</label>
+          </p>
+          <p>
+            <label>Favorite apron color: <input type="color"> </label>
+          </p>
+          <p>
+            <label>Biography: <textarea name="Biography"></textarea> </label>
+          </p>
+          <p>
+            <label>Upload your latest recipe: <input type="file"></label>
+          </p>
+          <p>
+            <label>Url to recipe: <input type="url"></label>
+          </p>
+          <p>
+            <button type="reset">Reset</button>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+
+      </form>
+    </container>
+
+
+  </main>
+  <footer>
+
+    <div class="ZEDSA">
+
+    </div>
+    <div>
+      <img src="kraal2.jpg" align="right">
+    </div>
+
+  </footer>
+</body>
+
+</html>

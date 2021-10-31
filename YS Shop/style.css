@@ -1,0 +1,168 @@
+a{
+    text-decoration: none ;
+    color:#333;
+    font-size: small;
+}
+
+a:hover{
+    color: rgb(104, 104, 104);
+}
+
+a:active{
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: white;
+    color: black;
+    font: normal 13px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1em;
+}
+
+
+.Z2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+h1{
+    font: bold;
+    font-size: 46px;
+    text-align: center;
+}
+
+.h1-space{
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.new-product {
+    /*New product at the home page*/
+    display: block;
+    margin-left: left;
+    margin-right: auto;
+    width: 80%;
+}
+
+.product {
+    display: block;
+    margin-left: left;
+    margin-right: auto;
+    width: 22%;
+}
+
+.kraal2{
+    object-position: bottom;
+    width: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 0px;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+
+.flex-container {
+    display: flex;
+    
+}
+
+.flex-container>div {
+    background-color: #3a3a3a63;
+    margin: 30px;
+    padding: 70px;
+    font-size: 16px;
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: column-reverse
+}
+  
+.flex-container2 > div {
+    background-color: #3a3a3a63;
+    margin: 30px;
+    padding: 70px;
+    font-size: 16px;
+}
+
+
+.Men {
+    display: flex;
+    flex-direction: column
+}
+  
+.Men > div {
+    background-color: #3a3a3a63;
+    margin: 30px;
+    padding: 70px;
+    font-size: 16px;
+}
+
+.Women {
+    display: flex;
+    flex-direction: column
+}
+  
+.Women > div {
+    background-color: #3a3a3a63;
+    margin: 30px;
+    padding: 70px;
+    font-size: 16px;
+}
+
+.Z3{
+    width: 70px;
+}
+
+
+footer{
+    background-color: #333;
+    color: red;
+    font-size: 11px;
+    font: bold;
+}
+
+
+
+
+@media (min-width: 1240px) {
+   
+    }
+body{
+    font-size: 16px;
+    line-height: 10px;
+}      
+
+
+    
+
+
+    
+}
+/*Dark mode
+body{
+    background-color: black;
+    color: white;
+}*\
